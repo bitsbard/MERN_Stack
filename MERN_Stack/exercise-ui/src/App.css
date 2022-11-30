@@ -1,0 +1,93 @@
+body {
+  font-family: serif;
+  background-color: rgb(105, 0, 0);
+  color: beige;
+  margin: 5px;
+  padding: 10px;
+}
+
+.App {
+  text-align: center;
+  font-size: calc(12px + 2vmin);
+}
+
+.App-header {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: beige;
+}
+
+.App-link {
+  color: beige;
+}
+
+.App-link2 {
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  color: beige;
+  background-color: rgb(85, 85, 85);
+  line-height: 1;
+  vertical-align: middle;
+  border: 2px solid rgb(105, 0, 0);
+  font-size: 1.0em;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.App-link3 {
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  color: beige;
+  background-color: rgb(85, 85, 85);
+  line-height: 1;
+  vertical-align: middle;
+  border: 2px solid rgb(105, 0, 0);
+  font-size: 1.0em;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.App-link:hover {background-color: rgb(85, 85, 85);}
+
+.App-edit {
+  font-size: calc(24px + 2vmin);
+}
+
+.App-add {
+  font-size: calc(24px + 2vmin);
+}
+
+.App-footer {
+  font-size: calc(2px + 2vmin);
+  padding: 50px;
+}
+
+tr, th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: center;
+  background-color: beige;
+  color: rgb(85, 85, 85);
+  border: 2px solid rgb(85, 85, 85);
+}
+
+tr, td {
+  border: 2px solid rgb(85, 85, 85);
+  padding: 10px;
+}
+
+tr:hover {background-color: lightgrey;}
+
+input {
+  font-family: serif;
+}
+
+button {
+  font-family: serif;
+}
